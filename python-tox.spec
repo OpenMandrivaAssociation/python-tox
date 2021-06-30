@@ -85,12 +85,11 @@ rm -rf html/.{doctrees,buildinfo}
 %{_bindir}/tox
 %{_bindir}/tox-quickstart
 %{python3_sitelib}/%{pypi_name}
-%{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info/
+%{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
 
 %if %{with bootstrap}
 %files -n python-%{pypi_name}-doc
 %doc html
-%endif
-
 %license LICENSE
+%endif
 
