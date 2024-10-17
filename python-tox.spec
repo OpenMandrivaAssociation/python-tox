@@ -15,7 +15,7 @@ Release:        1
 Summary:        tox is a generic virtualenv management and test command line tool
 Group:          Development/Python
 License:        MIT
-URL:            http://tox.readthedocs.org
+URL:            https://tox.readthedocs.org
 Source0:        %{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 
